@@ -2,7 +2,7 @@ from Exceptions import InvalidPin,NegativeAmount,InvalidAc,ZeroAmount,Insufficie
 from function import PIN,DEP,WDW #Those are prog-def functions for raise the prog-def exceptions
 while True:
     print('>'*50)
-    print('Welcome to State Bank of India')
+    print('Welcome to State Bank of India'.center(50))
     print('<'*50)
     print("""
     1.Check Balance
